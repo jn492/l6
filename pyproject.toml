@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "l6"
+version = 
+description = "A Python package for L6 functionality."
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "youremail@example.com" }
+]
+dependencies = []
+
+[project.scripts]
+l6 = "l6_package.cli:main"
