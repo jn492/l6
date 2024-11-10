@@ -1,6 +1,9 @@
 version: 2
 
+build:
+  os: ubuntu-22.04
+
 python:
   version: 3.9
   install:
-  - requirements: docs/requirements.txt
+    - requirements: docs/requirements.txt
