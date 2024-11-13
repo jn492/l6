@@ -1,9 +1,9 @@
-sphinx
-sphinx_rtd_theme
-myst_parser
-nbsphinx
-sphinx.ext.autodoc
-sphinx.ext.mathjax
-sphinx_gallery.load_style
-  # If you use Markdown
-
+Sphinx==4.0.2
+sphinx-rtd-theme==0.5.2
+readthedocs-sphinx-ext
+nbsphinx==0.8.6
+ipython
+Pygments==2.15.0
+sphinxcontrib-bibtex>=2.1
+sphinxcontrib-svg2pdfconverter
+sphinx-gallery
